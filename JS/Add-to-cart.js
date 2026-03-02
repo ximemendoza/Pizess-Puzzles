@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+  //chatgpt recomended to write it like this
   const addButton = document.querySelector(".cart-main");
 
   addButton.addEventListener("click", () => {
@@ -18,6 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     localStorage.setItem("cart", JSON.stringify(cart));
 
-    alert("Product added to cart!");
+    alert("Product added to cart!! :)");
   });
 });
